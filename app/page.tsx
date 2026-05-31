@@ -10,7 +10,7 @@ import { Reveal } from "@/components/reveal";
 import { SectionCorners } from "@/components/section-corners";
 import { Showcase } from "@/components/showcase";
 import { SocialProof } from "@/components/social-proof";
-import { DitherShader } from "@/components/dither-shader";
+import { HeroRadialLiquid } from "@/components/hero-radial-liquid";
 import type { ReactNode } from "react";
 
 export default function HomePage(): ReactNode {
@@ -42,7 +42,7 @@ export default function HomePage(): ReactNode {
               style={{ ["--enter-delay" as string]: "200ms" }}
               className="enter-fade relative isolate min-h-80 w-full overflow-hidden bg-background lg:min-h-160"
             >
-              <DitherShader variant="hero" className="z-0" deferInit={0} />
+              <HeroRadialLiquid />
             </div>
           </div>
 
