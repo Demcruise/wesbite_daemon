@@ -22,8 +22,8 @@ export default function HomePage(): ReactNode {
           id="platform"
           className="relative border-b border-border scroll-mt-24"
         >
-          <div className="grid grid-cols-1 lg:grid-cols-2">
-            <div className="flex min-h-130 flex-col justify-center px-6 py-16 sm:px-10 sm:py-20 lg:min-h-160 lg:border-r lg:border-border lg:px-14 lg:py-24">
+          <div className="grid min-h-80 grid-cols-1 items-stretch lg:min-h-160 lg:grid-cols-2">
+            <div className="flex min-h-0 flex-col justify-center px-6 py-16 sm:px-10 sm:py-20 lg:border-r lg:border-border lg:px-14 lg:py-24">
               <div
                 style={{ ["--enter-delay" as string]: "380ms" }}
                 className="enter"
@@ -40,9 +40,11 @@ export default function HomePage(): ReactNode {
 
             <div
               style={{ ["--enter-delay" as string]: "200ms" }}
-              className="enter-fade relative isolate min-h-80 w-full overflow-hidden bg-background lg:min-h-160"
+              className="enter-fade relative isolate min-h-0 h-full w-full overflow-hidden bg-background"
             >
-              <HeroRadialLiquid />
+              <div className="absolute inset-0 size-full">
+                <HeroRadialLiquid />
+              </div>
             </div>
           </div>
 

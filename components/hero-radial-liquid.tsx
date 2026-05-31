@@ -12,20 +12,25 @@ export function HeroRadialLiquid(): ReactNode {
   const reduceMotion = useReducedMotion();
 
   return (
-    <RadialLiquid
-      className="absolute inset-0 z-0 h-full w-full"
-      width="100%"
-      height="100%"
-      backgroundColor="#060606"
-      color1="#00adb5"
-      color2="#008a91"
-      color3="#222831"
-      position="bottom"
-      speed={reduceMotion ? 0 : 0.7}
-      iterations={4}
-      distortionType="plasma"
-      enableCursorInteraction={!reduceMotion}
-      quality="high"
-    />
+    <div className="size-full">
+      <RadialLiquid
+        className="size-full"
+        width="100%"
+        height="100%"
+        backgroundColor="#060606"
+        color1="#00adb5"
+        color2="#008a91"
+        color3="#222831"
+        position="center"
+        scale={1.4}
+        waveSize={5}
+        edgeSoftness={0.18}
+        speed={reduceMotion ? 0 : 0.7}
+        iterations={5}
+        distortionType="plasma"
+        enableCursorInteraction={!reduceMotion}
+        quality="high"
+      />
+    </div>
   );
 }
