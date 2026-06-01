@@ -30,7 +30,7 @@ const FAQS: ReadonlyArray<FAQ> = [
   {
     q: "Which product should I start with?",
     a: [
-      "Protocol teams typically start with Daemon Protocol or ARES. Analysts and investigators begin with Grond. Teams needing private execution evaluate Obscura. Contact us to scope a pilot around your specific use case.",
+      "Protocol teams typically start with Daemon Protocol or ARES. Analysts and investigators begin with Grond. Teams needing private execution evaluate Obscura. Contact us to discuss scope and access for your use case.",
     ],
   },
   {
@@ -48,7 +48,7 @@ const FAQS: ReadonlyArray<FAQ> = [
   {
     q: "How do I get access?",
     a: [
-      "Start with a Pilot plan or request a demo. Technical teams can review architecture and API documentation before committing. Enterprise deployments include dedicated onboarding from day one.",
+      "Request a demo or email us directly. Technical teams can review architecture and API documentation before deployment. Enterprise customers receive dedicated onboarding from day one.",
     ],
   },
   {

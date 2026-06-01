@@ -17,8 +17,8 @@ export function FinalCTA(): ReactNode {
               Work with Daemon.
             </h2>
             <p className="mt-4 max-w-md text-sm leading-relaxed text-muted-foreground sm:text-base">
-              Pilots, enterprise deployments, or general inquiries. Reach us
-              directly
+              Enterprise deployments, technical evaluations, or general
+              inquiries—reach us directly.
             </p>
 
             <div
