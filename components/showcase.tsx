@@ -148,14 +148,13 @@ export function Showcase(): ReactNode {
             id={headingId}
             className="text-4xl font-medium leading-[1.05] tracking-tighter text-foreground sm:text-5xl lg:text-[3.5rem] xl:text-[4rem]"
           >
-            Four products.
+            Safe. Modular.
             <br />
-            One operational layer.
+            Connected.
           </h2>
           <p className="mt-10 max-w-md text-sm leading-relaxed text-muted-foreground sm:text-base">
             Each product was built to solve a distinct operational problem.
-            Together, they cover the full surface area of onchain risk from
-            threat detection to execution.
+            Deploy one or all of them. They work independently and together.
           </p>
         </div>
 
